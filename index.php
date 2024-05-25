@@ -153,3 +153,23 @@ $x=777.45075;
 $int_cast=(int)$x;
 echo $int_cast;
 ?>
+<?PHP
+echo"<br>";
+$valor = 10;
+if ($valor == 15){
+ echo "<br> Valor é 15";
+}
+elseif ($valor >= 10){ 
+	echo "Valor é maior ou igual a 10";
+}
+else {
+	echo "Valor é menor que 10";
+}
+?>
+<?PHP
+echo"<br>";
+$v = "Fabio";
+$nome = $v."dos reis";
+	echo $nome;
+
+?>	
